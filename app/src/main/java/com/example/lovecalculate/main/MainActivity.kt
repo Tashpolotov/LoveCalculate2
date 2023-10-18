@@ -19,12 +19,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        initView()
+
         navHostFragment = supportFragmentManager.findFragmentById(R.id.fr_container) as NavHostFragment
         navController = navHostFragment.navController
-    }
-
-    private fun initView() {
-
     }
 }
