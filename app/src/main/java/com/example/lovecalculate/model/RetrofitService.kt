@@ -1,9 +1,8 @@
-package com.example.lovecalculate.view.network
+package com.example.lovecalculate.model
 
 import com.example.lovecalculate.main.utils.Const.BASE_URL
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
 class RetrofitService {
 

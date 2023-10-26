@@ -1,4 +1,4 @@
-package com.example.lovecalculate.view.network
+package com.example.lovecalculate.view.utils
 
 object Utils {
 

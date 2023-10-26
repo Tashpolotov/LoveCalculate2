@@ -40,5 +40,8 @@ class ResultFragment : Fragment() {
         binding.btnAgain.setOnClickListener {
             findNavController().navigate(R.id.action_resultFragment_to_homeFragment)
         }
+        binding.btnHistory.setOnClickListener {
+            findNavController().navigate(R.id.action_resultFragment_to_historyFragment)
+        }
     }
 }

@@ -1,4 +1,4 @@
-package com.example.lovecalculate.view.network
+package com.example.lovecalculate.model
 
 import com.example.lovecalculate.main.utils.Const.API_KEY
 import com.example.lovecalculate.model.LoveModel
